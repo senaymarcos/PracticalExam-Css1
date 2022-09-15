@@ -5,187 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Amazon</title>
-    <script src="https://kit.fontawesome.com/27fefd11ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon Page</title>
 </head>
 <body>
-    <main>
-        <header class="header-container">
-            <nav class="nav-container">
-                <div class="logo-container">
-                    <img src="./image/amazon.png" alt="A logo about Amazon" class="logo">
-                </div>
-                <div class="all-search part">
-                    <form class="seach-form">
-                        <label for="site-search" class="site">
-                            <a href="">
-                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                            </a>
-                        </label>
-                        <input type="search" id="site-search" name="q" class="site">
-                        <button class="site">
-                            <a href="">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </a>
-                        </button>
-                    </form>
-                </div>
-                <div class="account-personality part">
-                    <form action="">
-                        <div for="account-form">Hello Hicoders My Account
-                            <a href="">
-                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-                <div class="shop-container">
-                    <div class="shop-basket">
-                        <div class="zero">0</div>
-                        <div><i class="fa-solid fa-cart-shopping"></i></div>
-                    </div>
-                    <div class="basket">Basket</div>
-                </div>
-            </nav>
+        <header>
+            <a href="">
+                <img src="./images/logo.jpg" alt="">
+            </a>
+            <div class="search-container">
+                <button>All <i class="fa-solid fa-sort-down"></i></button>
+                <input type="Search" placeholder="Search" />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="hello-message">
+                <span>Hello HiCoders</span>
+                <br />
+                <span>My Account</span>
+                <i class="fa-solid fa-sort-down"></i>
+            </div>
+            <div class="basket">
+                <span class="amount">0</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="text">Basket</span>
+            </div>
         </header>
-        <section class="side-bar-container">
-            <div class="side-bar"><a href="">Best Sellers</a></div>
-            <div class="side-bar"><a href="">Gift Ideas</a></div>
-            <div class="side-bar cus-service"><a href="">Customer Service</a></div>
-            <div class="side-bar"><a href="">Music</a></div>
-            <div class="side-bar"> <a href="">PC</a></div>
-            <div class="side-bar"> <a href="">Books</a></div>
-            <div class="side-bar"><a href>Toys</a></div>
-            <div class="side-bar"><a href="">Home</a></div>
-            <div class="side-bar"><a href="">Garden</a></div>
-            <div class="side-bar"><a href="">Elecktronics</a></div>
-        </section>
-        </section>
-        <section>
-            <div class="content-container">
-                <div class="category-container">
-                    <h4>Categories</h4>
-                    <hr>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="toys" value="toys">
-                            <label for="toys">Toys</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="computer" value="computer">
-                            <label for="computer">Computer</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="phone" value="phone">
-                            <label for="phone">Phone</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="home" value="home">
-                            <label for="home">Home</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="books" value="books">
-                            <label for="books">Books</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="foods" value="foods">
-                            <label for="foods">Foods</label>
-                          </form>
-                    </div>
-                    <div>
-                        <form action="">
-                            <input type="checkbox" id="garden" value="garden">
-                            <label for="garden">Garden</label>
-                          </form>
-                    </div>
-                    <h4>Price</h4>
-                    <hr>
-                    <div class="price-container">
-                        <a href="">Up to $15</a>
-                        <a href="">$25 to $40</a>
-                        <a href="">$40 to $80</a>
-                        <a href="">$80 to $100</a>
-                        <a href="">$100 to $200</a>
-                    </div>
-                    <div class="min-max container">
-                        <input type="number" minlength="15" class="price" placeholder="Min">
-                        <input type="number" maxlength="200" class="price" placeholder="Max">
-                        <button type="button" class="price-submit">Go</button>
-                    </div>
-                </div>
-                <div class="pc-container">
-                    <div class="big-pc">
-                        <img src="image/computer.png" alt="A computer">
-                    </div>
-                    <div class="pc-small-container">
-                        <div class="computer part-1">
-                            <img src="https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbuiimg_53171280thumbeui850.jpg" alt="">
-                        </div>
-                        <div class="computer part-2">
-                            <img src="https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbuiimg_4548400thumbeui850.jpg" alt="">
-                        </div>
-                        <div class="computer part-3">
-                            <img src="https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/thumbuiimg_72737981thumbeui850.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="information-container">
+        <nav class="navbar">
+            <a class="navbar-item active" href="#">Best Sellers</a>
+            <a class="navbar-item" href="#">Gift Ideas</a>
+            <a class="navbar-item" href="#">Customer Service</a>
+            <a class="navbar-item" href="#">Music</a>
+            <a class="navbar-item" href="#">PC</a>
+            <a class="navbar-item" href="#">Books</a>
+            <a class="navbar-item" href="#">Toys</a>
+            <a class="navbar-item" href="#">Home</a>
+            <a class="navbar-item" href="#">Garden</a>
+            <a class="navbar-item" href="#">Electronics</a>
+        </nav>
+        <main class="main">
 
-                </div>
+            <!-- Sidebar Start -->
+          <aside class="sidebar">
+            <article class="category">
+              <h4>Categories</h4>
+              <div><input type="checkbox" /> Toys</div>
+              <div><input type="checkbox" /> Computer</div>
+              <div><input type="checkbox" /> Phone</div>
+              <div><input type="checkbox" /> Home</div>
+              <div><input type="checkbox" /> Books</div>
+              <div><input type="checkbox" /> Foods</div>
+              <div><input type="checkbox" /> Garden</div>
+            </article>
+            <article class="price">
+              <h4>Price</h4>
+              <a href="#">Up to $15</a>
+              <a href="#">$25 to $40</a>
+              <a href="#">$40 to $80</a>
+              <a href="#">$80 to $100</a>
+              <a href="#">$100 to $200</a>
+              <input type="text" placeholder="Min" />
+              <input type="text" placeholder="Max" />
+              <button>Go</button>
+            </article>
+          </aside>
+          <!-- Sidebar End -->
+    
+          <!-- PRODUCT IMAGE  -->
+          <section class="product">
+            <div class="product-images">
+              <div class="main-image">
+                <img src="./images/product-1.jpg" alt="" />
+              </div>
+              <div class="small-images">
+                <img src="./images/product-2.jpg" alt="" />
+                <img src="./images/product-3.jpg" alt="" />
+                <img src="./images/product-4.jpg" alt="" />
+              </div>
             </div>
-        </section>
-        <footer class="footer-container">
-            <div class="foot-knowledge">
-                <h4>Get to Know</h4>
-                <ul>
-                    <li>Career</li>
-                    <li>About Us</li>
-                    <li>Amozon Science</li>
-                    <li>Amazon Pay</li>
-                    <li>Sell on Amazon</li>
-                </ul>
+            <!--PRODUCT DETAILS AND SCORE-->
+            <div class="product-details">
+              <p>
+                Jumper Laptop13.3 Inch Full HD 1920 x 1080 IPS Microsoft 365 4GB RAM
+                128GB ROM
+              </p>
+              <div class="product-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <span>13 ratings</span>
+              </div>
+              <div class="product-price">
+                <span>$100</span>
+                <span>$70</span>
+              </div>
+              <div class="product-about">
+                  Windows 10 laptop equipped with Intel Celeron dual-core processor,
+                  can achieve multi-tasking. Ultra-low-power high-performance
+                  processor, with up to 2.4GHz peak turbo frequency.
+                </p>
+              </div>
+                <button class="add-to-cart">
+                    <i class="fa-solid fa-cart-plus"></i>  Add to Cart
+                </button>
             </div>
-            <div class="foot-knowledge">
-                <h4>Get to Know</h4>
-                <ul>
-                    <li>Career</li>
-                    <li>About Us</li>
-                    <li>Amozon Science</li>
-                    <li>Amazon Pay</li>
-                    <li>Sell on Amazon</li>
-                </ul>
-            </div>
-            <div class="foot-knowledge">
-                <h4>Get to Know</h4>
-                <ul>
-                    <li>Career</li>
-                    <li>About Us</li>
-                    <li>Amozon Science</li>
-                    <li>Amazon Pay</li>
-                    <li>Sell on Amazon</li>
-                </ul>
-            </div>
-            <div class="foot-knowledge">
-                <h4>Get to Know</h4>
-                <ul>
-                    <li>Career</li>
-                    <li>About Us</li>
-                    <li>Amozon Science</li>
-                    <li>Amazon Pay</li>
-                    <li>Sell on Amazon</li>
-                </ul>
-            </div>
+          </section>
+          <!-- Product Detail End -->
+        </main>
+        <footer class="footer">
+          <section class="footer-column">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Amazon Science</a></li>
+              <li><a href="#">Amazon Pay</a></li>
+              <li><a href="#">Sell On Amazon</a></li>
+            </ul>
+          </section>
+    
+          <section class="footer-column">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Amazon Science</a></li>
+              <li><a href="#">Amazon Pay</a></li>
+              <li><a href="#">Sell On Amazon</a></li>
+            </ul>
+          </section>
+    
+          <section class="footer-column">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Amazon Science</a></li>
+              <li><a href="#">Amazon Pay</a></li>
+              <li><a href="#">Sell On Amazon</a></li>
+            </ul>
+          </section>
+    
+          <section class="footer-column">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Amazon Science</a></li>
+              <li><a href="#">Amazon Pay</a></li>
+              <li><a href="#">Sell On Amazon</a></li>
+            </ul>
+          </section>
         </footer>
-    </main>
 </body>
 </html>
